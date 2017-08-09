@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+nav li:first-child a, nav .mobile-home-link.logo {
+	font: 2.2em 'OFL Sorts Mill Goudy TT';
+	padding: 0 68px 0 0px;
+	text-align: left;
+	line-height: 2.3em;
+	width: 500px;
+}
+
+a, header h2 a, .error .text a {
+	color: #00325e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #616161;
+}
+
+nav .mobile-home-link.logo {
+	background: url("mobile_logotipo.png") no-repeat 0 8px;
+	display: none;
+	margin-left: .9em;
+	width: 30%;
+	padding-right: 0;
+}
