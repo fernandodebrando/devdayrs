@@ -482,18 +482,18 @@ h4 {
 }
 
 
-/* TESTIMONIAL */
+/* CALL4PAPERS */
 
-#testimonial {
-	background:url(../img/testimonial-bg.png) bottom center no-repeat fixed;
+#call4papers {
+	background:url(../img/testimonial-bg.jpeg) bottom center no-repeat fixed;
 	width:100%;
 	height:auto;
 	min-height:225px;
 	margin-bottom:15px;
-	padding:10px 0 20px 0;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
+	color: #ffffff;
 }
 
 #testimonial .item {
@@ -596,11 +596,14 @@ h4 {
 
 #register {
 	padding:70px 0;
-	/*background:url(../img/top-bg-participants.jpg) center center no-repeat fixed;
+	background:url(../img/top-bg-participants.jpg) center center no-repeat fixed;
 	background-size:cover;
 	-webkit-background-size:cover;
-	-moz-background-size:cover;*/
+	-moz-background-size:cover;
+	color: #ffffff;
 }
+
+/* REGISTER */
 
 .price-table-header {
 	padding:30px 0;

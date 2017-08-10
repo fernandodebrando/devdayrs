@@ -342,15 +342,14 @@ select {
 
 .button-dark {
 	color: #ffffff;
-	background:#00325e;
+	background:#f58634;
 }
 
 .button-dark:hover,
 .button-dark:active {
 	color: #ffffff;
-	background: #2980b9;
+	background: #f29d60;
 }
-
 
 /* PRELOAD */
 

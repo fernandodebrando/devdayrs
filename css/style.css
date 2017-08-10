@@ -82,3 +82,24 @@ p#summary11 {
 	margin-top: 20px;
 
 }
+
+.button-dark {
+    color: #ffffff;
+    background: #f58634;
+}
+
+a {
+    color: #f58634;
+    text-decoration: none;
+}
+
+.code {
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.code a{
+    color: #183E65;
+    text-decoration: none;
+}
