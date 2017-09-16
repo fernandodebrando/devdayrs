@@ -857,12 +857,16 @@ select {
 }
 
 /***
- *	CSS - style for MBC
+ *	CSS - style for DevDay
  **/
+.main-logo {
+	width: 100%;
+	height: auto;
+}
 
- .logo img {
- 	margin-top: 80px;
- }
+.logo img {
+	margin-top: 80px;
+}
 
 #sponsors .img-responsive {
 	padding: 3px 10px;
@@ -872,12 +876,12 @@ select {
 	padding-top: 15px;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
 	.main-logo {
-		width: 80%;
+		width: 100%;
 		height: auto;
 	}
-}
+}*/
 
 @media (max-width: 480px) {
 	.main-logo {
