@@ -48,6 +48,11 @@
 	height: 60px;
 }
 
+.sponsor-group.supporter a {
+	width: 180px;
+	height: 130px;
+}
+
 .code {
 	color: #999999;
 	font-style: italic;
