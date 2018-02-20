@@ -286,6 +286,7 @@ h4 {
 	position: absolute;
 	right: 0;
 	top: 0;
+	line-height: 1em;
 	-webkit-transition: all 300ms;
 	   -moz-transition: all 300ms;
 	        transition: all 300ms;
@@ -295,7 +296,7 @@ h4 {
 }
 
 .speaker figcaption p {
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .speaker:hover figcaption {
