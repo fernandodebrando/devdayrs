@@ -127,15 +127,15 @@ jQuery(document).ready(function($) {
 
 
 	//OWLCAROUSEL TESTIMONIAL
-	$("#quote").owlCarousel({
-
-		pagination : false,
-		slideSpeed : 300,
-		paginationSpeed : 400,
-		singleItem:true,
-		navigation : true,
-		navigationText : ['<i class="fa fa-3x fa-chevron-circle-left"></i>','<i class="fa fa-3x  fa-chevron-circle-right"></i>'],
-	});
+	// $("#quote").owlCarousel({
+  //
+	// 	pagination : false,
+	// 	slideSpeed : 300,
+	// 	paginationSpeed : 400,
+	// 	singleItem:true,
+	// 	navigation : true,
+	// 	navigationText : ['<i class="fa fa-3x fa-chevron-circle-left"></i>','<i class="fa fa-3x  fa-chevron-circle-right"></i>'],
+	// });
 
 
 	//DROPDOWN SUMMARY
@@ -164,7 +164,7 @@ jQuery(document).ready(function($) {
 
 });
 
-$(window).load(function(){
+$(function() {
 
 	//PARALLAX BACKGROUND
 	$(window).stellar({
@@ -220,7 +220,8 @@ $(window).load(function(){
 };
 
 	//GOOGLE MAP
-	function init_map() {
+	function initMap() {
+
     var myOptions = {
         zoom: 14,
         center: new google.maps.LatLng(-30.0351572, -51.226632), //change the coordinates
@@ -241,9 +242,4 @@ $(window).load(function(){
     });
     infowindow.open(map, marker);
 	}
-	google.maps.event.addDomListener(window, 'load', init_map);
-
-
-
-
-
+	google.maps.event.addDomListener(window, 'load', initMap);
